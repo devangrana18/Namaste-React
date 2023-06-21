@@ -1,0 +1,3 @@
+-->.AppendChild=>it allows us to add new element to any other element and it become its child element of that element.
+   for example if we have an element and we we have given it an ID and after
+   that we will use that ID name .appendChild(and the Htm code which we want to insert)

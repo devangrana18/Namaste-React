@@ -1,0 +1,25 @@
+Q-> what is react?
+A   -> React is a javascript library for building user interphase.
+    -> react is used to build single page applications.
+    -> React allows us to create reusable UI component.
+--we use script tag for using javascript in HTML
+--in script tag we use document.createElement("h1") to create any element like h1,p,article
+  and give that element a name by using const 'const heading =document.createElement("h1")'
+--after doing this we use inner.HTML to print 'heading.innerHTML = "HELLO WORLD WRITTEN IN JAVASCRIPT"'
+
+
+
+*  There are two things IN React=>
+    1. React -> It is the code which is written by Facebook coders And we use that code to build React web.
+    2. React Dom -> It is Document Object Model which allows coder to update pre written code by that coder
+       without touching old code.  
+
+*  Like In Javascriptwe use documnet.createElement()  but in React we use react.createElement()
+   and we have to pass 3 parametre in it (tag(h1,p),Object{},Html you want  to write in it"Hello this is html")
+   it is a core thing to create element in React it comes from react library
+
+*  But React dom is another library and when we create root and render something inside it we use ReactDOM.createRoot()
+   we created root bu doing this for our library and after that we will pass document.getElementByID() 
+   in ReactDOM.createRoot(document.getElementByID())
+
+* When we use .render it replaces the code which was written earlier 

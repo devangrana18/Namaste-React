@@ -1,0 +1,11 @@
+body{
+  background-color: aquamarine;
+  font-style: italic;
+}
+
+#heading{
+    color: rgb(137, 21, 40);
+    font-style: oblique;
+    position: relative;
+
+}
