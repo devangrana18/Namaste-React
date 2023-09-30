@@ -1,0 +1,28 @@
+Is JSX mandatory for React?
+    No we can use react without JSX
+
+Is ES6 mandatory for React?
+
+How can I write comments in JSX?
+
+What is <React.Fragment> </React. Fragment> and <></> ?
+
+What is Virtual DOM?
+
+What is Reconciliation in React? What is React Fiber?
+
+Why we need keys in React? When do we need keys in React?
+
+    Whenever mapping or looping on anything always give a key(id) to it as every child should be uniquely represented, 
+    if key not given & any new element come so react would have to re-render all becoz it would not know where 
+    the new element is added but if id is given it would rerender only the element with the new id
+
+Can we use index as keys in React?
+    yes we can but it not a good practise
+
+What is props in React? Ways to
+
+    it is the short form of roperties andit is just like argument to a function 
+    passing a prop to a Component is just like passing a argument to function
+
+What is a Config Driven UI ?

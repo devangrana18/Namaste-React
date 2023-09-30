@@ -1,0 +1,30 @@
+**Config -Driven UI --- the UI is config driven it will be different in Rampur 
+                            and might be different in Gurgaon and will be different in Mumbai just like swiggy
+                            So it is done by Data coming from backend
+
+
+**whenever a state variable update react rerenders the component
+
+**diff algorithm--it finds out the differnce between old VirtualDom amd new VirtualDom
+                  After finding Differnce ir actually update the Dom on every Render Cycle
+
+
+**props -- it is the short form of roperties andit is just like argument to a function 
+           passing a prop to a Component is just like passing a argument to function
+
+
+What is the difference between Named Export, Default export and * as export? 
+    Default Export--when We need to exprt only one component then
+                    we use export default name of component
+    Named Export  --When we need to export more than one component then we use
+                    named export by writing export before intializing component 
+
+What is the importance of config.js file 
+
+What are React Hooks?
+    it is just a normal js function which react gives us it has its own use cases 
+
+Why do we need a useState Hook?
+    we need state hook to change state
+    const[New variable , function to update]=useState(variable need to be updated)
+    const[listOfrestaurant , setlistOfRestaurant]=useState(restlist)

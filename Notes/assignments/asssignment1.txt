@@ -1,0 +1,59 @@
+Q1 What is Emmet?
+    emmet is a tool which helps us to write html css in fast way by using simmple abbriviations
+    it gives you basic skeletion of html 
+
+Q2 Difference between a Library and Framework?
+
+    Library:A collection of pre-built tools that you can selectively use to perform specific tasks
+            Libraries offer flexibility and allow you to have more control over your code.
+
+    Framework:A comprehensive set of rules, conventions, and tools that provide a structured approach to application development.
+              Frameworks provide an architecture and flow of control, requiring developers to follow their predefined structure.
+
+
+
+Q3 What is CDN? Why do we use it?
+
+    Content Delivery network is a network of inter connected Servers which helps to 
+    speed up webpage loading for data heavy applications
+
+
+Q4 Why is React known as React?
+
+    React is known as react because it is a library reacts according to data and update the user interface accordingly
+
+Q5 What is cross-origin in the script tag?
+
+    cross-originis an attribute used when loading external resources such as scripts,stylesheet,fonts in webpage
+
+Q6 What is the difference between React and ReactDOM
+
+    React and ReactDOM are two distinct packages within the React ecosystem.
+    React is a JavaScript library for building user interfaces, while ReactDOM is responsible for 
+    rendering React components into the browser's Document Object Model (DOM)
+
+    React: React is a JavaScript library for building user interfaces. 
+           It provides a declarative and component-based approach to creat interactive UI 
+           With React, you can define reusable UI components and manage their state and behavior.
+
+    ReactDOM: ReactDOM is a package that provides the integration between React and the 
+              browser's Document Object Model (DOM).
+    
+
+Q7 What is difference between react.development.js and react.production.js files via CDN?
+
+    **react.development.js--it is used for debugging purpose and development  
+                            It includes additional features such as helpful warnings, error messages, 
+                            and readable code that aids developers in identifying and resolving issues during the development phase
+    
+    **react.development.js--this file is optimized for production deployment.It is smaller in size as it removes 
+                            the development-specific features present in the development version, resulting in a minimized file size.
+
+
+Q8 What are async and defer? - see my Youtube video 
+
+    **async--when html parse(load from up to down)in async at the same time js file also download and after downloading 
+             it stop html file to parse and then execute js.after that parse continue
+
+    **defer--when html parse in defer at the same time js file got download and when parse complete after that js file execute
+

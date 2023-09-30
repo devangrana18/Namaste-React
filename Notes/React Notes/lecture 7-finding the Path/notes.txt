@@ -1,0 +1,48 @@
+**  Routing library
+
+**React-router- dom is a dependency used for routing
+
+**Imported by (createBrowserRouter) from react-router-dom
+
+**createBrowser Router it is the recommended router for all react router web project
+
+**useCase: createBrowserRouter([path:7, element:<About/>]), argument will tell that what will happen on a specific route
+
+**Router provider: it is a component provides the routing configuration to app
+
+**Imported by (routerProvider) from react-router-dom 
+
+**rafce automatically creates a component in vscode
+
+** If we give some route that is not defined then react router Dom will automatically gives you the page of 404 not found, 
+not the ugly looking error 
+
+**UserouteError is a hook given to us by react router dom, this hooks gives you more information about the error
+
+**Outlet it is a component provided by reactRouterDom to replace the children mentioned in createBrowserRouter in with outlet component. An <Outlet should be used in parent
+  route elements to render their child route elements 
+
+**Outlet and children can be used as if condition
+
+**In HTML the component is not showed as outlet it will be showed as the rendered component 
+
+**In react to go to another page, never use a anchor tag bcoz the whole page will be rendered again if the <a> tag is used
+
+**We can navigate to a new page, without reloading the whole the page and by only changing the body via link
+
+**Link it is a component given to us by reactRouterDom
+
+   <link to="/about">About</Link>> 
+
+**There are two types of routining
+
+1. Server side routing: like on html poge makes a request and server sends the page. 
+2. Client side routing is we don't need to make a call pages is switching on client side only
+
+**React is a single page application becoz it is a single page just the components are changing via client side routing
+
+**React fiber; it's an internal change to how React handles reconciliation. The main motivation behind Fiber was to improve 
+  the performance and concurrency of React by making the reconciliation process more incremental and interruptible.
+
+**Reconciliation: is the process in React where it ensures that the Ul matches the underlying data and state. 
+  It compares the previous virtual DOM with the updated virtual DOM

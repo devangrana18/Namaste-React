@@ -1,0 +1,33 @@
+Q1 What is a microservice?
+
+    Microservice architecture is a way of building software where the system is broken down into small, 
+    independent pieces called microservices. Each microservice focuses on a specific function or feature 
+    of the software and operates as a separate and self-contained unit.
+
+    it follows the single principle concept where each and every service has its own job
+
+Q2 What is monolith architecture?
+
+    Monolithic architecture is a way of building software where everything is bundled together
+    as one big piece. It's like a single, giant structure that contains all the different parts of the software,
+    such as the user interface, the logic, and the database.
+
+Q3 what is the difference between monolith and microservice architecture?
+
+    
+
+Q5 Why do we need Use effect hook?
+
+Q6 what is optional chaining?
+
+Q6 What is shimmer ui?
+
+Q7 What is the difference between JS expression and JS statement?
+
+Q8 what is conditional rendering,Explained with a code example
+
+Q9 What is CORS?
+
+Q10 What is async and await?
+
+Q11 What is the use of Const Json =  await data .Json() in getReataurant

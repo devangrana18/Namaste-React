@@ -1,0 +1,61 @@
+React Component
+
+ Every thing in react is a component 
+
+there are two types of component in React-
+1-- Class based componnent  - old 
+2-- functional based component - New/latest 
+
+**React functional component--It is just a normal javascript function which returns some piece of jsx element
+                               We can also say that A Javascript function which returns react element
+Whenever we use react Functional component we should start from  capital letter otherwise we will get Error
+
+const Heading = () =>(
+   return <h1>Namaste react functional componentt</h1>
+)
+
+when we render any element we used 
+const Root = ReactDom.createRoot(document.getElementByID("root"))
+    Root.render(element name)
+
+
+
+If we are rendering Functional component we will use (<component's Name/>)
+
+const Root = ReactDom.createRoot(document.getElementByID("root"))
+    Root.render(<component Name/>)
+
+
+when Bable see  </> in  Root.render(<component Name/>)  this it it automatically understand that it is funcional component  
+
+
+**component composition --Using one component into another component is known as component composition.
+  example --
+   const Heading2= () =>(
+   return (
+    <Heading/>
+    <h1>Namaste react functional componentt</h1>
+    )
+    )
+   In above Example I use heading Componentin Heading2 Component now browser will print "Namaste react functional componentt"
+    and the thing which is in Heading
+ 
+
+ whenever we want to write Javascript in jsx  we use {}
+ just like we want to add any element in our component so we will use {}and write it name in between
+
+ for example--
+ const Number = 1000
+ 
+ const Heading2= () =>(
+   return (
+    {Number} -------------------you can do any thing in this curly paranthesis just like
+    <h3>{Number+2}</h3>----------we can write js in between tags
+    {Heading()}------------------we can call a component also in these paranthesis
+    {etc}
+    <h1>Namaste react functional componentt</h1>
+    )
+)
+
+
+

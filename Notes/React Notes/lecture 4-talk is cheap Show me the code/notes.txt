@@ -1,0 +1,19 @@
+** First make blueprint of your project,Decide how your app is goint to look on UI
+
+** Prop property to pass data, passing prop to component is like passing an argument to function 
+
+** React will wrap all properties in props that is an object and pass it in function, 
+   we can also restructure props while passing in function 
+=> example const (resName, resimage, Cusine)= props:
+
+** Config driven Ul config comes from backend, The configuration settings for the Ul are typically stored in 
+   configuration files or databases, which are read by the application during runtime
+
+** Optional chaining --It is a feature that allows you to safely access properties or call methods on 
+                       nested objects or arrays without worrying about null or undefined values
+
+** Whenever mapping or looping on anything always give a key(id) to it as every child should be uniquely represented, 
+   if key not given & any new element come so react would have to re-render all becoz it would not know where 
+   the new element is added but if id is given it would rerender only the element with the new id
+
+React says never use index as keys, its a bad practise

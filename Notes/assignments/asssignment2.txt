@@ -1,0 +1,46 @@
+Q1 What is `NPM ?
+
+    commonly known as node package manager and it manages all the packages of node
+
+Q2 What is Parcel/Webpack? Why do we need it?
+
+    Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps you to minify, 
+    clean, and make your code compact
+
+
+
+Q3 What is parcel-cache
+
+    parcel-cache is a directory created by Parcel bundler during the build process to store cached data and 
+    improve build performance. When Parcel bundles your project, it performs various operations such as dependency 
+    resolution, transformation, and optimization. To speed up subsequent builds, it caches the results of these 
+    operations in the parcel-cache directory
+
+Q4 What is npx ?
+
+    npx is a command-line tool that comes bundled with Node.js and npm. 
+    It is used to run Node.js packages and execute command-line tools without the need to install them globally on your system.
+
+Q5 What is difference between dependencies' vs 'devDependencies'
+
+Q6 What is Tree Shaking?
+
+Q7 What is Hot Module Replacement?
+
+Q8 List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+
+Q9 What is .gitignore ? What should we add and not add into it?
+
+Q10 What is the difference between package.json and package-lock.json
+
+Q11 Why should I not modify package-lock.json"?
+
+Q12 What is "node_modules"? Is it a good idea to push that on git?
+
+Q13 What is the dist folder?
+
+Q14 What is 'browserlists Read about dif bundlers: vite, webpack, parcel
+
+Q15 Read about: - caret and -- tilda
+
+Q16 Read about Script types in html (MDN Docs)

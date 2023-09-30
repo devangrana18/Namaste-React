@@ -1,0 +1,23 @@
+THER ARE TWO TYE OF APPROACH TO LOAD UI
+    1 - first load then call API and after that render that But it took too much time to render that
+
+    2 - first load then render the page and then Call API and then re-render the page 
+        
+**useEffect Hook -- it also come from react library and imported as named import
+                    use effect is normal function which takes 2 Aruguments 1st callback Function,2nd-Dependency array
+                    useEffect(()=>{},[]) 
+                    this useEffect callback function will ebee called after component render 
+                    for example--when we load any Page it show us shimmer Ui which means rendering is been done 
+                    and now you see the actual data which means use effect's callback function exectued 
+
+**CORS POLICY -- Our browser block to call API from one origin to another origin
+                 Cross-Origin Resource Sharing
+
+**Optional chaining is a feature that allows you to safely access properties or call methods on nested objects or arrays 
+  without worrying about null or undefined values
+
+**Shimmer UI -- it is type of a fake skelaton which appears on UI till the API bring data from DB 
+
+**Conditional rendering -- rendering according to condition like if no data is rendering yet 
+                           we can use shimmer Ul till there is no data rendered it i.e called conditional rendering like
+                           for condition with no data rendered yet

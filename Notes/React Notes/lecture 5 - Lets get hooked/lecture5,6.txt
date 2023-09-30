@@ -1,0 +1,63 @@
+**incremental rendering:The ability to split rendering work into chunks 
+                        and spread it out over multiple frames.
+
+**Sepatartion of concern--it is a design principle which suggest us to 
+                          breakdown our projets into many projects which have their own job and then use them
+
+**Single Responseblity principle-- in which every saperate peace of code have its own job and Responseblity 
+
+**conditionally Rendering -- It is nothis jst hat you gave a condition before rendering 
+                            just like shimmering UI how
+
+**Local State variable -- Whenever a State variable update React trigers a reconciliation Cycle(re-render the component)
+
+**
+
+**Reconciliation Cycle --
+
+Q1.What is a Microservice architecture?
+
+    microservice architecture is a way of building software where the system is broken down into small, 
+    independent pieces called microservices. Each microservice focuses on a specific function or feature 
+    of the software and operates as a separate and self-contained unit.
+
+Q2.What is Monolith architecture?
+
+    monolithic architecture is a way of building software where everything is bundled together
+    as one big piece. It's like a single, giant structure that contains all the different parts of the software,
+    such as the user interface, the logic, and the database.
+
+Q3.What is the difference between Monolith and Microservice?
+
+Q4.Why do we need a useEffect Hook?
+
+    use effect is normal function which takes 2 Aruguments 1st callback Function,2nd-Dependency array
+    useEffect(()=>{},[]) 
+
+Q5.What is Optional Chaining?
+
+    it helps to access the properties of any object
+    for example-
+    if we do this "person.address.country" and after that
+    address is null and undefined it will throw error
+
+    person.address?.country-this is the right way if 
+    address is null or no defined then it will not throw any error
+
+Q6.What is Shimmer UI?
+
+    it is type of a fake skelaton which appears on UI till the API bring data from DB 
+
+Q7.What is the difference between JS expression and JS statement? 
+
+    
+
+Q8.What is Conditional Rendering, explain with a code example
+
+    
+
+Q9.What is CORS?
+
+Q10.What is async and await?
+
+Q11.What is the use of 'const json = await data.json(); in getRestaurants()

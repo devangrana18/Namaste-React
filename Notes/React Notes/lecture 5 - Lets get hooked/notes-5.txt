@@ -1,0 +1,53 @@
+the good practice is to make saperate file for saperate component.
+
+there are 2 types of exports - named export and default export 
+  
+   Default Export--when We need to exprt only one component then
+                    we use export default name of component
+
+                    when we import them we write normally -- import name from"file name"
+
+
+    Named Export  --When we need to export more than one component then we use
+                    named export by writing export before intializing component 
+
+                    when we import them we  use {} while writing name -- import {name} from "file name"
+                     
+
+
+React hooks -- normal javascript function writen by facebook developers 
+               Which have some utility in it wich comes withe grreat superpowers and it is written in react which we import
+
+               it have multiple hooks in react but 2 of them are very mainly uses
+               useState() and useEffect()
+
+useState() --  it is a hook which is mainly used to update UI accordingly
+
+               for example we want restaurant more than 4 star rating so we can do filter that normal list to filtered list 
+               but how can we update that list so here usestate comes in power by using useState we can update that list 
+               
+               const [filteredlist(param1) , changed list(param2)] = useState(the original list)
+
+               it takes 2 param first one can be anything object,integer etc but 2nd param will always be a function to set new value
+
+               here original list is made equal to filteredlist before filtering using use state
+
+               Wheneer state variable changes react rerender the component 
+
+               we use it by importing it as named import from react
+               import (useState) from "react"
+               how we use it-
+               it is a local state variable which have its memory in local scope 
+
+Reconciliation algorithm (React fiber) --  in 2016 a new algorithm come into market
+                                            react fiber is the new way of finding the difference and updating Dom 
+
+                                            whenever something changes on UI this is called Reconciliation
+
+
+Diff algorithm -- it find out the differnce between old virtualdom and new virtual dom when clicked and update the UI
+
+virtual Dom-- it is representation of actual Dom
+
+whay react is fast ?
+    because React do efficient Dom manipulation

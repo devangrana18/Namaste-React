@@ -1,0 +1,373 @@
+.header{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 23%;
+  position: relative;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.login{
+  background-color: #f9e775;
+  border: none;
+  color: #000000;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+.logo{
+  padding-top: 1vh;
+  background-color:  rgb(255, 255, 255);
+  width: 9vw;
+  cursor: pointer;
+}
+.logo:hover{
+  padding-top: -5ox;
+width: 144px;
+}
+.app-name{
+  text-align: left;
+  padding: 35px 0px 0px;
+  padding-left: 4vw;
+  margin-left: -325px;
+  cursor: pointer;
+  color: rgb(204, 119, 85);
+}
+
+.cart{
+  width: 40px;
+  
+  cursor: pointer;
+}
+.cart:hover{
+  text-decoration: underline;
+    display: inline-block;
+    border-radius: 7px;
+    padding: 3px;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+
+}
+.nav-item{
+  text-decoration: none;
+  color: #000000;
+  padding-right: 55px; 
+  padding-top: 18px;
+  box-shadow:inset
+}
+
+.nav-item > ul {
+  font-size: 30px;
+  color:rgb(204, 119, 85) ;
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.nav-item > ul >li{
+  padding: 10px;
+  margin: 10px;
+
+}
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card:hover{
+ 
+  background-color: #caa9a9;
+  cursor: pointer;
+
+}
+
+.res-card{
+  border-radius: 15px;
+  margin-left: 5px;
+  background-color:#f4dada;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 425px;
+  width: 350px;
+
+}
+
+.filter{
+  display: flex;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  border-radius: 25px;
+  color: rgb(161, 223, 135);
+}
+.search{
+  text-align: center;
+  margin-left: 480px;
+  margin-right: 15px;
+}
+.search-btn{
+  background-color: #f9e775;
+  border: none;
+  color: #000000;
+  padding: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-btn{
+  background-color: #f9e775;
+  border: none;
+  color: #000000;
+  padding: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.res-logo{
+  width: 350px;
+  height: 225px;
+}
+.extra{
+  list-style-type: none;
+  display: flex;
+}
+.rating{
+  height: 25px;
+  width: 40px;
+  color: aliceblue;
+  padding: 5px;
+  /* margin-top: 10px; */
+  /* padding-bottom: 5px; */
+  padding-left: 9px;
+  margin-left: -30px;
+  border-radius: 8px;
+  background-color: rgb(63, 166, 63);
+}
+.eta{
+  margin-top: -15px;
+  padding: 5px;
+  margin-left: 30px;
+}
+.price{
+  margin-top: -15px;
+  padding: 5px;
+  margin-left: 30px;
+}
+.quick-view{
+   color: #c6c6c6; 
+   font-size: small; 
+   margin-left: 100px;
+   margin-top: -23px;
+}
+
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.simmer-button{
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.simmer-card{
+  border-radius: 15px;
+  margin-left: 5px;
+  background-color:#d6d6d6;
+  padding: 10px;
+  margin-bottom: 5px;
+  height: 425px;
+  width: 350px;
+}
+.simmer-img{
+  width: 310px;
+  height: 225px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  
+}
+.simmer-name{
+  height: 27px;
+  width: 120px;
+  background-color: #f0f0f0;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.error{
+  text-align: center;
+  padding-top: 10vh;
+  background-color: rgb(255, 255, 255);
+}
+.err-img{
+  width: 25vw;
+}
+.errText{
+  font-weight: bolder;
+  font-family: 'Roboto Mono';
+  color: rgb(255, 91, 91);
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.notification {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.restaurantMenu{
+  margin-left: 13vw;
+}
+.Name-rating{
+  display: flex;
+}
+.resMenuTop{
+  text-align: center;
+  margin-left: 0vw;
+  padding-top: 5vh;
+  padding-bottom: 3vh;
+  background: linear-gradient(45deg, #efd95e, #ffffa3);
+  width: 81%;
+}
+.res-Cuisine{
+  text-align: center;
+  padding-left: 28vw;
+  padding-right: 27.6vw;
+  color: #FFFFE0;
+
+  background: linear-gradient(45deg, #efd95e, #302929);;
+  width: 19%;
+}
+.dish-Section{
+  display: flex;
+}
+.dishName{
+  text-decoration: none;
+  list-style: none;
+  
+}
+.name-Img{
+  width: 60%;
+}
+.dishImg{
+  margin-top: 3vh;
+  width: 8vw;
+  list-style: none;
+}
+.dishPrice{
+  text-decoration: none;
+  list-style: none;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+
+  
+  /* border: 1px solid rgb(0, 0, 0);
+  color: #28a745;
+  width: 3.5vw;
+  height: 7vh;
+  padding-left: 1vw;
+  border-radius: 15px; */
+}
+.dishDiscription{
+  text-decoration: none;
+  list-style: none;
+  margin-top: -1vh;
+  font-weight: 100;
+  color: #908f8f;
+  margin-bottom: 5vh;
+}
+.custom-link{
+  color: rgb(204, 119, 85); 
+  text-decoration: none; 
+ 
+}
+.custom-link-appname{
+  color: rgb(204, 119, 85);
+  text-decoration: none; 
+  font-weight: bold;
+}
+.custom-link-appname :hover{
+  color: #dda76e;
+}
+.custom-link-card{
+  color: rgb(0, 0, 0);
+  text-decoration: none; 
+  font-weight: bold;
+}
+#favicon{
+  border-radius: 10px;
+}

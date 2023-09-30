@@ -1,0 +1,18 @@
+What is JSX?
+    JSX is an HTML like Syntax Which can be written in Javascript file itself
+
+Superpowers of JSX
+    it can do a lot of thing its just a superpower fo a developer 
+    -We can write Small and readable code
+    -A html learned gyu can easily understand jsx written code
+    -It uses Html like structure 
+    -we can write Javascript inside jsx
+    -component composition
+
+Role of type attribute in script tag? What options can I use there?
+    The type attribute identifies the content between the <script> and </script> tags.
+
+
+{TitleComponent} vs {TitleComponent/>} vs {<titleComponent></TitleComponent>} in JSX
+    {TitleComponent}-- we use this when we are calling any element
+    {TitleComponent/>} vs {<titleComponent></TitleComponent>} - they both are same and these are used when we call any component 

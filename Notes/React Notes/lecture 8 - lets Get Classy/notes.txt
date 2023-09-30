@@ -1,0 +1,141 @@
+** Functional component -- it is the newer way of creating componet 
+                           At the end it is just a normal js function 
+
+** Class based component -- It is a older way of creating component 
+                            At the it is a normal class of javascript
+
+** How to create Class Component -- by using class Keyword.    ex -- class devang(name of the Component)
+                                    To tell React it is a class based component we write( extends React.component).   ex -- class devang extends React.component{}
+
+** React.component is basically a class Whichis given to us by react and we have to import it using named import (import React from "react")
+
+** How to render ClasBased Component -- in Functional component it is a Js functon which returns some piece of jsx but in ClasBased Component
+                                     it has render method which return the peace of jsx. 
+                                     
+                                    ex -- 
+                                     class devang extends React.component{
+                                        render(){
+                                            return(
+                                                whete here what you want to display on UI
+                                            )
+                                        }
+
+                                    }
+
+** Just like functional component We can export ClasBased Component by default export
+
+** how to use that Component in another file -- just like Functional Based component we use Class based component.everything is same import is same using the component is same ( <devang /> ) 
+
+
+** How we pass in propss in Class based component -- in functional component when we call our component we use to pass arguments there only.For ex ( <devang name={" Devang Rana"} /> )  
+                                                     in class based component we do same as Functional component when we call our component we pass the arguments there only 
+
+
+** How we recieve props in functional component when we need them -- in functional component we recieve props by destructureing it.
+                                            ( For ex -- const devang = (props) =>{
+                                                return(
+                                                    <h1>Name = {props.name}</h1>
+                                                )
+                                             }
+                                            )here we show how we reciv props in Functional based component 
+
+** How we recieve props in Class Based component when we need them -- in class we need to use constructor and this constructor will recieve the
+                                                                      props and we have to use keyword super(props)
+
+                                                                    class devang extends React.component{
+                                                                        constructor(props){
+                                                                            super(props)
+                                                                        }
+                                                                         render(){
+                                                                            return(
+                                                                                Name ={this.props.name} 
+                                                                            )
+                                                                        }
+                                                                    }
+
+** why do we need super(props) -- super(props) basically allows accessing this.props in a Constructor function
+** how to create state in class -- in functional component we use React Hook to create state
+                                    in class we write this.state and then give it  a value as key value
+                                    Ex -- this.state = {
+                                        count : 0
+                                    }
+                                    class devang extends React.component{
+                                        constructor(props){
+                                            super(props)
+                                            this.state = {
+                                            count : 1,
+                                    }
+                                       }
+                                        render(){
+                                            return(
+                                               Name ={this.props.name} 
+                                               Count = {this.state.count}
+                                            )
+                                        }
+                                    }
+
+
+** How to change state value -- in functional component we use useState hook in which we got a function with the help of that function we 
+                                can change our state value 
+
+** How to change state value in class based component -- in class based component we got a function this.setState() which help us to change the value of state   
+                                    
+                                    class devang extends React.component{
+                                        constructor(props){
+                                            super(props)
+                                            this.state = {
+                                            count : 1,
+                                    }
+                                       }
+                                        render(){
+                                            return(
+                                               Name ={this.props.name} 
+                                               Count = {this.state.count}
+                                               <button  onclick={() = {
+                                                    this.setState({
+                                                        count : this.state.count + 1
+                                                    })
+
+                                               }}>
+                                                Click Here to Increace Count
+                                               </button>
+                                            )
+                                        }
+                                    } Here we learn how to change value using state with the help of code
+
+
+** Just like we have constructor method and Render method we have another method also componentDidMount() which is given by react                          
+
+** whenever class based component is called in class based component first constructor is called and then render is called
+   and afterthat componentDidMount() is called.This cycle is called Mounting cycle or life cycle of Class based component
+
+** The main use case of componentDidMount() iss to make API call
+** there are two types of phase which happens 
+    1 - Render Phase - in Render phase constructur() and render() happens
+    2 - Commit Phase - In Commit Phase Dom Manipulation and ComponentDidmount() takse place
+
+** in render() When react see ther are two child component so react binds up the render phase of both child component and after render
+   phase Commit phase start in which Dom Manipulation happens dom finds out the diff and Manipulation it and then ComponentDidmount() is called
+
+   Here is An example of An life cycle of class component which will happen if a parent component hase 2 or more child component
+[
+    - Panrent Constructor
+    - Parent Render
+
+        - First Child Constructor
+        - First Child Render
+
+        - Second Child Constructor
+        - Second Child render
+
+        - First Child ComponentDidmount()
+        - Second Child ComponentDidmount() 
+
+    Parent ComponentDidmount()
+]
+
+ ** How to fetch data from API in class based component -- just like in functional component here also we use async await but not in useEffect
+                                                           We  
+
+
+

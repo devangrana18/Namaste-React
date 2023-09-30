@@ -1,0 +1,86 @@
+what does npx parcel index.html means?
+
+    napx means we are executing npm package parcel and giving source file as index .html
+
+what is sript and why it is needed?
+
+    we can give a name to the command in script and which is present in package.json that name it will be called name of script 
+    script{
+        "start":"parcel index.html"   (for development)
+        "build or anything" : "parcel build index.html"   (for productuin build)
+    }
+    now we do not need to write 'npx parcel index.html' we can just write 'npm run start' \/ 'npm run build'
+
+**in React we use react.createElement()and we have to pass 3 parametre in it
+  (tag(h1,p),Object{},Html you want  to write in it"Hello this is html") 
+  it is a core thing to create element in React it comes from react library
+
+  react element at the end of the day is object and when we render it on to the dom then it become html elemelt
+
+
+
+
+                                             JSX
+                            JJJJJJJJJJJSSSSSSSSSSSSSSSSXXXXXXXXXXXX
+                                              J
+                                              S
+                                              X
+                                    Javascript Syntax
+
+**JSX is an HTML like Syntax Which can be written in Javascript file itself
+
+jsx is also developed by Facebook developer because the core react has a very compicated type of writing structure
+so jsx help developer to write code in html like struture in js file
+
+
+jsx is type of convention in which we can merge html and js in js file
+
+EX----creating heading using JSX in js file
+        const JsxHeading = <h1>The theading is created using jsx </h1>
+
+**javascript is a code which js engine can understand
+
+**can js engine understand jsx?
+
+    no js engine cant understand jsx it can understand only ecmaScript(es6)
+
+ "const JsxHeading = <h1>The theading is created using jsx </h1>"
+ our browser cant understand this peace of code
+
+ so,when we write our code then the code is transpiled bybable a package present in parcel before it to js engine 
+ and then js engine recieves the code that js engine can understand
+
+[Before JSX]
+React.createElement ==> React Element (which is at the end is an object) ==> html Element (when renderd)
+
+[After JSX]
+JSX ==>Bable transpiles it to React.createElement ==> React Element(an object) ==> html Element (when renderd)
+
+**In html we use class as attribute and in jsx we use classname as attribute
+**if we are writting jsx in multiple lines  we need to use () otherwisewe can write normaly if we are writing in single line
+const JsxHeading = (<h1>
+        The theading is created using jsx
+    </h1>)
+    we use this brackets so that bable can understand where from jsx is starting and till where it is 
+
+
+what is bable and what it is doing ?
+   bable is a javascript compile or transpiler which transpile the code which js engine understand
+
+where it is present?
+ it is a package present in Parcel
+ and it is not created by Facebook
+
+
+jsx is that good that it take care of melcious data should not come in your browser
+
+
+
+
+
+
+
+
+
+
+what is tabIndex attribute

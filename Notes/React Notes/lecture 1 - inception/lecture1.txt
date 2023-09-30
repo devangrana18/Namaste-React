@@ -7,11 +7,15 @@ A   -> React is a javascript library for building user interphase.
   and give that element a name by using const 'const heading =document.createElement("h1")'
 --after doing this we use inner.HTML to print 'heading.innerHTML = "HELLO WORLD WRITTEN IN JAVASCRIPT"'
 
+**Browser's Document Object Model (DOM) is a programming interface that represents the structure and content
+  of a web page as a tree-like structure. It provides a way for programs, such as web browsers or JavaScript
+  to interact with and manipulate the elements and content of a web page.
+
 
 
 *  There are two things IN React=>
     1. React -> It is the code which is written by Facebook coders And we use that code to build React web.
-    2. React Dom -> It is Document Object Model which allows coder to update pre written code by that coder
+    2. React Dom -> It is Document Object Model which allows coder to update pre written code by that
        without touching old code.  
 
 *  Like In Javascriptwe use documnet.createElement()  but in React we use react.createElement()

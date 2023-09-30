@@ -1,0 +1,100 @@
+usestate() -- Deep Knowledge
+
+            {
+                Never use nay hooh aoutside your component or body 
+
+                it is used to create local state variable inside component and body
+            }
+
+
+useEffect() -- Deep Knowledge
+        {
+                useEffect is a function which take to aruguments in it first one is a callback function and second one is dependecy array
+                and it get called after the component renderd succesfully  
+            
+            {
+               Q1 when does useEffect get called
+               A.  if no dependecny array is present in useEffect function called everytime a component render useEffect get called. 
+
+                   if Empty dependency array is empty and present in useeffect it get called only one time while initialisation
+
+                   if dependency array has a name of any component it get called after everytime the component renders (for ex if we change 
+                   anything in any component it renders everytime if put that component in that array the useEffect will be called every time
+                    the component get renderd ) 
+            }
+        }
+
+**React RouterDom -- it a library
+
+**React Router -- it helps to go to the different page of website without leaving that page.just like youtube
+
+                  imagine you have a toy with different rooms, like a doll's house. Each room has its own special things inside.
+                  Now, imagine you want to play in different rooms without leaving the house and going outside.
+
+                 React Router is like magic for your toy house. It helps you move from one room to another without going outside. 
+                 So, you can go from the kitchen to the bedroom, and then to the living room, all without going out of your house. 
+                 It's like having secret doors inside your house that take you to different places.
+
+                 In the same way, when we build websites or apps, we want people to be able to go to different parts without 
+                 leaving the whole page. React Router is like those secret doors that help us go to different parts of the app 
+                 without needing to reload the whole page. It makes everything feel smooth and fun, just like playing with your 
+                 toy house!
+
+** Configuration : some information that will define what will happen on any specific route
+
+whenever we have to route we have to use routing configuration--
+    -for that we have to import something knownn as createBrowserRouter from react-router-dom library
+     createBrowserRouter - it will create routing configuration for us it takes a list of path in it
+     how does it do so let me show
+     const appRoute  = createBrowserRouter([   ----hare it tkaes the list of path
+        {
+            path:"/"                                 ---- if path is  / 
+            element: <AppLayout/ >                   ---- load this element(in element AppLayoutmeant home page component)
+        }
+        {
+            path:"/about"                             ---- if path is  /about
+            element:<about />                         ---- load this element(in element <about/> means about page component)
+        }
+     ])
+
+     Router provider: it is a component provides the routing configuration to app
+     Imported as named import- import {createBrowserRouter , routerProvider} from react-router-dom 
+
+** use "rafce" commant to generate component aotomatically
+
+** If we give some route that is not defined then react router Dom will automatically gives you the page of 404 not found, 
+   not the ugly looking error 
+
+** "UseRouteError" is a hook given to us by react router dom, this hooks gives you more information about the error
+
+** Outlet it is a component provided by reactRouterDom to replace the children mentioned in createBrowserRouter
+   in with outlet component. An <Outlet should be used in parent route elements to render their child route elements 
+
+** In react to go on another page never use a anchor tag becuase the whole page will be loaded (rendered) again if the <a> tag is used
+
+** We can navigate to a new page, without reloading the whole page and by only changing the body via link
+
+** link is a super power which is given by react router dom to navigate to a new page without re-rendering new page 
+    how to use - 1. it is imported as named import from react router dom
+                 2. used like this <li><Link to= "/">Home</Link></li>
+
+** there are are two types of routing in web
+    1. Server side routing: like on html page makes a request and server sends the page. 
+    2. Client side routing is we don't need to make a call pages is switching on client side only
+
+
+** Make Path Dynamic - it means that making the path dynamic for uniqueness for-ex(every restaurant have differnt menu so we can 
+                       identify that restaurant by unique ID by making ID dynamic we can make menu differnt for every restaurant)
+
+                        {
+                            path:"/restaurant/:id"                        ---- By adding : we can make our ID dynamic and changeable according to request made 
+                            element: <RestaurantMenu/ >                   ---- load this element(in element menu page of restaurant page component)
+                        }
+
+** useParams - it is hook given by react router dom  which takes the id or whatever we give in path it store the value in it
+
+                const {id} = useParams()    ------here useParams takes out the id and we use {} for destructuring the object
+
+
+** when we use <Link></Link> in jsx it shows anchor tag (<a href=""/>) in dom howis it happening is behind the scene link is using anchor tag     
+

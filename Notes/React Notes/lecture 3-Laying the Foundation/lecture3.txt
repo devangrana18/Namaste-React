@@ -1,0 +1,89 @@
+**SCRIPT--It is an Dependency in which we can define dev or build with new name
+          like "start":parcel index.html and we can run npm run start in whole project
+          instead of npx parcel index.html
+
+--What is dom Element?
+--The html element in html file is dom element
+
+**React.createElement is an objet and when we render it to React Dom then it become HTML Element
+
+**JSX-- JSX is not HTML in Javascript
+        JSX is an HTML like Syntax Which can be written in Javascript file itself
+
+**cross sight scripting Data -- jsx filter out maelicious data whith the help of this
+
+**Babel--it is an package and it convert pure code inty the language browser understands
+         in simple term--it is used toconvert JSX code into React
+
+       -- if we are writing JSX in multiple line we must use ()brackets so that 
+          Bable can understand this is the start and this is the end
+
+
+
+**React Component--
+1 - Class Based Component - Old
+2 - Functional Component - New 
+
+REACT FUNCTIONAL COMPONENT-a function that returns React Element then it is called Functional Component.  
+                          for example
+                            const ReactFunctional = () => {
+                                return <h1>This React Functional component</h1>
+                            }
+
+**React.fragment--behaves like an empty tag in react we can only hav 1 root tag so React.fragment behave like root tag
+
+
+
+
+
+
+Q1 What is Component?
+    It's a small, self-contained piece of code that you can reuse throughout your application.
+
+Q2 What is component composition?
+    placing one component into another one is ccomponent Composition
+
+Q3 Is JSX mandatory for React? 
+    JSX is not mandatory for React, but it is highly recommended and widely used.
+    JSX is a popular syntax extension for JavaScript that allows you to write HTML-like code within your JavaScript files.
+
+Q4 Is ES6 mandatory for React?
+    ES6 (ECMAScript 2015) features are not mandatory for using React, but they are highly recommended and commonly used.
+    using ES6 features can greatly enhance your development experience and productivity when working with React.
+
+Q5 {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+    
+
+Q6 How can I write comments in JSX?
+    To write comments in JSX, you can use curly braces (`{/* ... */}`) to enclose the comment within your code.
+
+Q7 What is <React. Fragment></React.Fragment> and <></> ?
+    React.fragment--behaves like an empty tag in react we can only hav 1 root tag so React.fragment behave like root tag
+Q8 What is Virtual DOM?
+    it is representation of actual Dom 
+Actual Dom--it is the tags  <div>
+                                <div>
+                                    <img/>
+                                </div>
+                            </div>
+
+Q9 What is Reconciliation in React?
+    when somethung changes on UI it is Reconciliation
+Q10 What is React Fiber?
+
+    it is the new way to find the diff and update the dom
+    it finds out the differnce between old VirtualDom amd new VirtualDom
+    After finding Differnce in actually update the Dom on every Render Cycle
+
+
+Q11 Why we need keys in React? When do we need keys in React?
+    keys are used to give an identity to the elements in the lists.we need keys in react when we need to fetck some data by its key 
+Q12 Can we use index as keys in React?
+    yes we can but that is not a good practice.it should only be used when we do not have any unique Id
+Q13 What is props in React? Ways to
+
+Q14 What is a Config Driven UI ?
+    The ui which can be modified used data which is coming form Backend
+Q15 why react is fast?
+    becuse it has virtual dom,it hs Diff algorithm whis is very afficient it can do 
+    efficient Dom manipulation,find out the diff ANd UPTADE THE UI

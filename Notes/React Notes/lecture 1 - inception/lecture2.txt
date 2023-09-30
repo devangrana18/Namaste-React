@@ -1,0 +1,60 @@
+
+--> package.json is a configuration for npm
+*Dependencies-->Our project is dependent on alot of packages and those packages on which
+                we are dependent on are called Dependencies
+
+*-->There are 2 type of dependencies
+    1- Dev Dependency--It is genreally Required in our devellopment phase when we are developing our app
+    2- Normal Dependency--these Dependenciesare used in production also  
+
+*npm--> npm commonly stands for node pakage manager but officialy it does not have any
+        full form btw it is a repositry which manages all the packages
+
+**Bundler-->it is used to manage dependencies and package multiple files or resources 
+            into a single file for efficient delivery to the browser.
+
+***Difference Between package.json And Package-Lock.json
+*Package.json-->it is an over view of Dependency and have som information about themlike virsion
+*Package-Lock.json-->it Has propper and Deep information about Dependency and
+                     it maintain Exact version of each dependency
+
+**Transitive Dependencies are those dependencies which also have dependencies and those dependencies
+  might also have dependencies
+  and When we install parcel a whole folder installed named as node module in which it has so many folders
+  which means parcel as a dependency also have its dependencyand those dependency have their dependency
+
+**npx parcel-->we use this when we need to execute our package
+
+**Module-->-It is Certainly a small peace of code wit some functionality which is used to build new projects
+           -It helps in organizing, reusing, and building larger software systems or applications.
+
+
+#Parcel
+  - It Create *Dev build*
+  - It create *Local server*
+  - It  refresh our page itself after doing (ctrl+s) 
+  - HMR->Hot Module Replacement it helps in refreshing page 
+  - It uses File Watching Algorithm - written in C++
+  - Caching - Build Faster
+  - It helps IN Image Optimization
+  - Bundel our files
+  - Compress our files
+  - Consistent Hashing
+  - Code Splitting
+  - Diffrential Bundling - supports older Browser
+  - Diagnostic Behind our Code
+  - Good Error Handeling
+  - HTTPs
+  - Tree shaking - Remove unused code 
+  - Differnt development biuld  or production bundels
+
+
+
+  doubt---what is HMR and how it works 
+        answer--Hot module representation in which we do not need to refersh our page in Browser
+        when we save our file in vs code editor it automatically update the browser
+
+
+
+
+
